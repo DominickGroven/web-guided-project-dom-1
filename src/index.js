@@ -41,7 +41,7 @@ console.log(result)
 //  A- Change the cat-related content into dog-related content
 document.querySelector('h1').textContent = 'Lambda Dog'
 //  B- Have the students research online the difference between textContent and innerText
-
+//textContent gets the content of all elements, including <script> and <style> elements. In contrast, innerText only shows “human-readable” elements.
 
 // 👉 4- Changing any property
 //  A- Using dot notation to change a few attributes
